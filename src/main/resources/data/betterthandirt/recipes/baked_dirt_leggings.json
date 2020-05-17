@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "betterthandirt:dirt_leggings"
+  },
+  "result": "betterthandirt:baked_dirt_leggings",
+  "experience": 0,
+  "cookingtime": 200
+}

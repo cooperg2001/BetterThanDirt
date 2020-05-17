@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "betterthandirt:dirt_helmet"
+  },
+  "result": "betterthandirt:baked_dirt_helmet",
+  "experience": 0,
+  "cookingtime": 200
+}

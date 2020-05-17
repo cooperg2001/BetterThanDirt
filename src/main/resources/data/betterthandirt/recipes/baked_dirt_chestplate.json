@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "betterthandirt:dirt_chestplate"
+  },
+  "result": "betterthandirt:baked_dirt_chestplate",
+  "experience": 0,
+  "cookingtime": 200
+}
