@@ -13,8 +13,8 @@ import java.util.function.Supplier;
 
 public class CustomArmorMaterials {
     public enum CustArmorMaterial implements IArmorMaterial {
-        DIRT_ARMOR("dirt_armor", 16, new int[]{1, 1, 1, 1}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Items.DIRT, 0),
-        BAKED_DIRT_ARMOR("baked_dirt_armor", 16, new int[]{1, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_GOLD, () -> Items.DIRT, 1);
+        DIRT_ARMOR("dirt_armor", 2, new int[]{1, 1, 1, 1}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Items.DIRT, 0),
+        BAKED_DIRT_ARMOR("baked_dirt_armor", 8, new int[]{1, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_GOLD, () -> Items.DIRT, 1);
 
         private final String name;
         private final int durabilityMultiplier;
