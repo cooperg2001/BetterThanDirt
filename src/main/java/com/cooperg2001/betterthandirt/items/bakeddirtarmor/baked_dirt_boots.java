@@ -1,5 +1,5 @@
-package com.cooperg2001.betterthandirt.items;
-
+package com.cooperg2001.betterthandirt.items.bakeddirtarmor;
+//DEPRECATED
 import com.cooperg2001.betterthandirt.BetterThanDirt;
 import com.cooperg2001.betterthandirt.util.CustomArmorMaterials;
 import net.minecraft.client.renderer.entity.model.BipedModel;
@@ -7,38 +7,28 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
+import net.minecraft.util.LazyValue;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.common.extensions.IForgeItem;
 
 import javax.annotation.Nullable;
 
-//NOTE: this function allows for condensing of code from earlier versions. Instead of having a class for each item, the item is of type ArmorBase and it's specific values
-//are passed in at registration.
 
-public class ArmorBase extends ArmorItem {
 
-    public final EquipmentSlotType type = null;
+public class baked_dirt_boots extends ArmorItem {
 
-    public ArmorBase(CustomArmorMaterials.CustArmorMaterial mat, EquipmentSlotType type, Properties props) {
-        super(mat, type, props);
-
+    private final LazyValue<BipedModel> model = null;
+    
+    public baked_dirt_boots() {
+        super(CustomArmorMaterials.CustArmorMaterial.BAKED_DIRT_ARMOR, EquipmentSlotType.FEET, (new Properties()).group(BetterThanDirt.TAB));
     }
 
-    @Nullable
+
     @Override
     public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-        if (slot == EquipmentSlotType.LEGS) {
-            //Return path to generic layer two
-            return null;
-
-        } else {
-            //return path to generic layer one
-            return null;
-        }
-
-
+        return "betterthandirt:textures/models/armor/baked_dirt_layer_1.png";
     }
 
     @Override
@@ -47,7 +37,4 @@ public class ArmorBase extends ArmorItem {
 
         return super.getArmorModel(entityLiving, itemStack, armorSlot, original);
     }
-
-
-
 }
