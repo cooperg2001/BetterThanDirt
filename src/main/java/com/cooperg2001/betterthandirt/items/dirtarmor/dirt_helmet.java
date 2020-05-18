@@ -1,4 +1,4 @@
-package com.cooperg2001.betterthandirt.items;
+package com.cooperg2001.betterthandirt.items.dirtarmor;
 
 import com.cooperg2001.betterthandirt.BetterThanDirt;
 import com.cooperg2001.betterthandirt.util.CustomArmorMaterials;
@@ -8,37 +8,19 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-import javax.annotation.Nullable;
-
-//NOTE: this function allows for condensing of code from earlier versions. Instead of having a class for each item, the item is of type ArmorBase and it's specific values
-//are passed in at registration.
-
-public class ArmorBase extends ArmorItem {
-
-    public final EquipmentSlotType type = null;
-
-    public ArmorBase(CustomArmorMaterials.CustArmorMaterial mat, EquipmentSlotType type, Properties props) {
-        super(mat, type, props);
-
+public class dirt_helmet extends ArmorItem {
+    public dirt_helmet() {
+        super(CustomArmorMaterials.CustArmorMaterial.DIRT_ARMOR, EquipmentSlotType.HEAD, (new Item.Properties()).group(BetterThanDirt.TAB));
     }
 
-    @Nullable
     @Override
     public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-        if (slot == EquipmentSlotType.LEGS) {
-            //Return path to generic layer two
-            return null;
-
-        } else {
-            //return path to generic layer one
-            return null;
-        }
-
-
+        return "betterthandirt:textures/models/armor/dirt_layer_1.png";
     }
 
     @Override
@@ -47,7 +29,5 @@ public class ArmorBase extends ArmorItem {
 
         return super.getArmorModel(entityLiving, itemStack, armorSlot, original);
     }
-
-
 
 }
