@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "betterthandirt:cobblestone_boots"
+  },
+  "result": "betterthandirt:stone_boots",
+  "experience": 0,
+  "cookingtime": 200
+}

@@ -13,8 +13,11 @@ import java.util.function.Supplier;
 
 public class CustomArmorMaterials {
     public enum CustArmorMaterial implements IArmorMaterial {
-        DIRT_ARMOR("dirt_armor", 16, new int[]{1, 1, 1, 1}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Items.DIRT, 0),
-        BAKED_DIRT_ARMOR("baked_dirt_armor", 16, new int[]{1, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_GOLD, () -> Items.DIRT, 1);
+        DIRT_ARMOR("dirt_armor", 2, new int[]{1, 1, 1, 1}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Items.DIRT, 0),
+        BAKED_DIRT_ARMOR("baked_dirt_armor", 4, new int[]{1, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_GOLD, () -> Items.DIRT, 1),
+        COBBLESTONE_ARMOR("cobblestone_armor", 4, new int[]{2, 2, 2, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.COBBLESTONE, 1),
+        STONE_ARMOR("stone_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.STONE, 2),
+        ANDESITE_ARMOR("stone_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.STONE, 2);
 
         private final String name;
         private final int durabilityMultiplier;
