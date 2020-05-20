@@ -12,18 +12,18 @@ version="1.15.2-1.0.0" #mandatory
 
 displayName="Better Than Dirt" #mandatory
 
-updateJSONURL="http://myurl.me/" #optional
+updateJSONURL="http://cooperg2001.com/" #optional
 
 displayURL="cooperg2001.com" #optional
 
-logoFile="examplemod.png" #optional
+logoFile="btdlogo.png" #optional
 
-credits="Cheese" #optional
+credits="To all the lovely poeple on the Forge Project Discord" #optional
 
 authors="cooperg2001" #optional
 
 description='''
-My Custom Mod
+Better Than Dirt. Adds lots of fun armors.
 '''
 
 [[dependencies.examplemod]] #optional

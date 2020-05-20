@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:andesite"
+    }
+  },
+  "result":
+  {
+    "item": "betterthandirt:andesite_leggings",
+    "count": 1
+  }
+}

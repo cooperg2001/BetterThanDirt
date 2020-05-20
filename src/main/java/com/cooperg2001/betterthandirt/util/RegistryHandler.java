@@ -1,10 +1,7 @@
 package com.cooperg2001.betterthandirt.util;
 
 import com.cooperg2001.betterthandirt.BetterThanDirt;
-import com.cooperg2001.betterthandirt.items.baked_dirt_armor;
-import com.cooperg2001.betterthandirt.items.cobblestone_armor;
-import com.cooperg2001.betterthandirt.items.dirt_armor;
-import com.cooperg2001.betterthandirt.items.stone_armor;
+import com.cooperg2001.betterthandirt.items.*;
 import com.cooperg2001.betterthandirt.util.CustomArmorMaterials.CustArmorMaterial;
 
 import net.minecraft.block.Block;
@@ -49,4 +46,10 @@ public class RegistryHandler {
     public static final RegistryObject<Item> STONE_HELMET = ITEMS.register("stone_helmet", () -> new stone_armor(CustArmorMaterial.STONE_ARMOR, EquipmentSlotType.HEAD, (new Item.Properties()).group(BetterThanDirt.TAB)));
     public static final RegistryObject<Item> STONE_LEGGINGS = ITEMS.register("stone_leggings", () -> new stone_armor(CustArmorMaterial.STONE_ARMOR, EquipmentSlotType.LEGS, (new Item.Properties()).group(BetterThanDirt.TAB)));
     public static final RegistryObject<Item> STONE_BOOTS = ITEMS.register("stone_boots", () -> new stone_armor(CustArmorMaterial.STONE_ARMOR, EquipmentSlotType.FEET, (new Item.Properties()).group(BetterThanDirt.TAB)));
+
+    public static final RegistryObject<Item> ANDESITE_CHESTPLATE = ITEMS.register("andesite_chestplate", () -> new andesite_armor(CustArmorMaterial.ANDESITE_ARMOR, EquipmentSlotType.CHEST, (new Item.Properties()).group(BetterThanDirt.TAB)));
+    public static final RegistryObject<Item> ANDESITE_HELMET = ITEMS.register("andesite_helmet", () -> new andesite_armor(CustArmorMaterial.ANDESITE_ARMOR, EquipmentSlotType.HEAD, (new Item.Properties()).group(BetterThanDirt.TAB)));
+    public static final RegistryObject<Item> ANDESITE_LEGGINGS = ITEMS.register("andesite_leggings", () -> new andesite_armor(CustArmorMaterial.ANDESITE_ARMOR, EquipmentSlotType.LEGS, (new Item.Properties()).group(BetterThanDirt.TAB)));
+    public static final RegistryObject<Item> ANDESITE_BOOTS = ITEMS.register("andesite_boots", () -> new andesite_armor(CustArmorMaterial.ANDESITE_ARMOR, EquipmentSlotType.FEET, (new Item.Properties()).group(BetterThanDirt.TAB)));
+
 }
