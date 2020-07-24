@@ -1,0 +1,19 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern":
+[
+"x x",
+"xxx",
+"xxx"
+],"key":
+{
+"x":
+{
+ "item": "minecraft: " redstone"
+}
+},
+"result":
+{
+"item": "betterthandirt:redstone_chestplate",
+"count": 1
+}

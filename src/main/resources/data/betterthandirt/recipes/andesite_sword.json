@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern":
+[
+" x ",
+" x ",
+" y "
+],"key":
+{
+"x":
+{
+ "item": "minecraft:andesite"
+},"y":
+{
+"item": "minecraft:stick"
+}
+},
+"result":
+{
+"item": "betterthandirt:andesite_sword",
+"count": 1
+}
+}

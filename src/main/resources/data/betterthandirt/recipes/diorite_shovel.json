@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern":
+[
+" x ",
+" y ",
+" y "
+],"key":
+{
+"x":
+{
+ "item": "minecraft:diorite"
+},"y":
+{
+"item": "minecraft:stick"
+}
+},
+"result":
+{
+"item": "betterthandirt:diorite_shovel",
+"count": 1
+}
+}

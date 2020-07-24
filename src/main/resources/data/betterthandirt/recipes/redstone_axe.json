@@ -1,0 +1,22 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern":
+[
+"xx ",
+"xy ",
+" y "
+],"key":
+{
+"x":
+{
+ "item": "minecraft: " redstone"
+},"y":
+{
+"item": "minecraft:stick"
+}
+},
+"result":
+{
+"item": "betterthandirt:redstone_axe",
+"count": 1
+}

@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern":
+[
+"xx ",
+"xy ",
+" y "
+],"key":
+{
+"x":
+{
+ "item": "minecraft:granite"
+},"y":
+{
+"item": "minecraft:stick"
+}
+},
+"result":
+{
+"item": "betterthandirt:granite_axe",
+"count": 1
+}
+}

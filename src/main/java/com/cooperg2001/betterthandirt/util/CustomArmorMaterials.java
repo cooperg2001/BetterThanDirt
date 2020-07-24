@@ -12,11 +12,21 @@ import java.util.function.Supplier;
 
 public class CustomArmorMaterials {
     public enum CustArmorMaterial implements IArmorMaterial {
+        //Armors using vanilla materials
         DIRT_ARMOR("dirt_armor", 2, new int[]{1, 1, 1, 1}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Items.DIRT, 0),
         BAKED_DIRT_ARMOR("baked_dirt_armor", 4, new int[]{1, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_GOLD, () -> Items.DIRT, 1),
         COBBLESTONE_ARMOR("cobblestone_armor", 4, new int[]{2, 2, 2, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.COBBLESTONE, 1),
         STONE_ARMOR("stone_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.STONE, 2),
-        ANDESITE_ARMOR("stone_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.STONE, 2);
+        ANDESITE_ARMOR("andesite_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.ANDESITE, 2),
+        WOOD_ARMOR("wood_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Items.OAK_WOOD, 2),
+        EMERALD_ARMOR("emerald_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Items.EMERALD, 2),
+
+        //Armors using modded materials
+        DURATANIUM_ARMOR("duratanium_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.STONE, 2),
+        RAW_POWER_ARMOR("raw_power_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.STONE, 2),
+        POWER_ARMOR("power_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.STONE, 2),
+        RAW_ELEMENTAL_ARMOR("raw_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.STONE, 2),
+        ELEMENTAL_ARMOR("elemental_armor", 8, new int[]{2, 3, 5, 2}, 2, () -> SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Items.STONE, 2);
 
         private final String name;
         private final int durabilityMultiplier;

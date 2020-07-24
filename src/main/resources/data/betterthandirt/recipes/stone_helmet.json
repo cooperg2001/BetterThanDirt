@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "betterthandirt:cobblestone_boots"
+    "item": "betterthandirt:cobblestone_helmet"
   },
-  "result": "betterthandirt:stone_boots",
+  "result": "betterthandirt:stone_helmet",
   "experience": 0,
   "cookingtime": 200
 }

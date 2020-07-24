@@ -1,0 +1,19 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern":
+[
+"   ",
+"x x",
+"x x"
+],"key":
+{
+"x":
+{
+ "item": "minecraft: " lapis"
+}
+},
+"result":
+{
+"item": "betterthandirt:lapis_boots",
+"count": 1
+}

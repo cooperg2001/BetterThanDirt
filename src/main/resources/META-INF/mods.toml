@@ -2,23 +2,23 @@ modLoader="javafml" #mandatory
 
 loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
-issueTrackerURL="http://my.issue.tracker/" #optional
+issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/better-than-dirt/issues" #optional
 
 [[mods]] #mandatory
 
 modId="betterthandirt" #mandatory
 
-version="1.15.2-1.0.0" #mandatory
+version="1.15.2-1.0.1.5" #mandatory
 
 displayName="Better Than Dirt" #mandatory
 
-updateJSONURL="http://cooperg2001.com/" #optional
+#updateJSONURL="" #optional
 
-displayURL="cooperg2001.com" #optional
+#displayURL="" #optional
 
 logoFile="btdlogo.png" #optional
 
-credits="To all the lovely poeple on the Forge Project Discord" #optional
+credits="To all the lovely poeple on the Forge Project Discord for their help." #optional
 
 authors="cooperg2001" #optional
 
@@ -26,7 +26,7 @@ description='''
 Better Than Dirt. Adds lots of fun armors.
 '''
 
-[[dependencies.examplemod]] #optional
+[[dependencies.betterthandirt]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -38,7 +38,7 @@ Better Than Dirt. Adds lots of fun armors.
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.betterthandirt]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"

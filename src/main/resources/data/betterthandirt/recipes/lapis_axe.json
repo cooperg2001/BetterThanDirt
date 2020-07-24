@@ -1,0 +1,22 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern":
+[
+"xx ",
+"xy ",
+" y "
+],"key":
+{
+"x":
+{
+ "item": "minecraft: " lapis"
+},"y":
+{
+"item": "minecraft:stick"
+}
+},
+"result":
+{
+"item": "betterthandirt:lapis_axe",
+"count": 1
+}

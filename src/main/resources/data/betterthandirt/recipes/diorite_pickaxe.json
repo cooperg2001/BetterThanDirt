@@ -1,0 +1,23 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern":
+[
+"xxx",
+" y ",
+" y "
+],"key":
+{
+"x":
+{
+ "item": "minecraft:diorite"
+},"y":
+{
+"item": "minecraft:stick"
+}
+},
+"result":
+{
+"item": "betterthandirt:diorite_pickaxe",
+"count": 1
+}
+}
